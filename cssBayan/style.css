@@ -1,0 +1,28 @@
+.accordeon_title {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  color: black;
+  /* border: 1px solid black; */
+}
+.accordeon_item {
+  width: 80%;
+  padding: 0.3em;
+  margin: auto;
+  background-color: silver;
+}
+summary {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0.1em;
+  padding: 0.5em;
+  text-align: start;
+}
+summary:hover {
+  color: white;
+}
